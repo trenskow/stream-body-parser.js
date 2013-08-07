@@ -1,0 +1,20 @@
+{
+	"name": "stream-body-parser",
+	"version": "0.0.1",
+	"author": "Kristian Trenskow <trenskow@me.com>",
+	"description": "Process multipart/form-data on the fly as streams.",
+	"main": "index.js",
+	"keywords": [
+		"express",
+		"multipart",
+		"streams"
+	],
+	"license": "BSD 2-Clause license",
+	"engines": {
+		"node": ">=0.10.15"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/trenskow/stream-body-parser.js.git"
+	}
+}
