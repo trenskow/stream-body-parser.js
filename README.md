@@ -1,5 +1,5 @@
 #stream-body-parser.js
-** Parse multipart/form-data as streams - processing doing upload**
+**Parse multipart/form-data as streams - processing doing upload**
 
 ##Introduction
 
