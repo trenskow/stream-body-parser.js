@@ -9,7 +9,9 @@ I've created this in order to make video upload service, that automatically tran
 
 So together with [stream-transcoder.js](https://github.com/trenskow/stream-transcoder.js), you are able to do stuff like this.
 
-**stream-body-parser will default back to connect.js/express.js's bodyParser, when non multipart/form-data data is being posted.**
+**stream-body-parser** will default back to connect.js/express.js's bodyParser, when non multipart/form-data data is being posted.
+
+**NOTICE**: Currently streams are not able to `pause()` and `resume()`.
 
     var express = require('express'),
         StreamBodyParser = require('stream-body-parser'),
